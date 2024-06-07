@@ -1,0 +1,36 @@
+﻿<Window x:Class="LibraryCreateWPF.forThemesPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryCreateWPF"
+        mc:Ignorable="d"
+        Title="forThemesPage" Height="700" Width="500">
+    <Grid Background="#4B0082">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="THIS IS OUR THEMES !" FontSize="40px" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White" FontFamily="Microsoft YaHei UI"/>
+
+        <Border CornerRadius="20" Background="#6A5ACD" Margin="371,10,25,57"/>
+        <Button x:Name="for_back" Content="back" FontSize="20px" VerticalContentAlignment="Top" HorizontalAlignment="Left" VerticalAlignment="Bottom" Foreground="White" FontFamily="Microsoft YaHei UI" Background="#6A5ACD" Margin="389,0,0,67" BorderBrush="#00707070" Height="26" Click="Button_Click"/>
+
+        <Border CornerRadius="30" Background="#6A5ACD" Grid.Row="1" Margin="25"/>
+        <Button x:Name="for_romantic" Content="Romantic" Background="#6A5ACD" Grid.Row="1" Margin="44,35,45,35" FontSize="30px" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White" FontFamily="Microsoft YaHei UI" BorderBrush="#00707070" Click="for_romantic_Click"/>
+        <Border CornerRadius="30" Background="#6A5ACD" Grid.Row="2" Margin="25"/>
+        <Button x:Name="for_forest" Content="Forest" Background="#6A5ACD" Grid.Row="2" Margin="44,35,45,35" FontSize="30px" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White" FontFamily="Microsoft YaHei UI" BorderBrush="#00707070" Click="for_forest_Click"/>
+        <Border CornerRadius="30" Background="#6A5ACD" Grid.Row="3" Margin="25"/>
+        <Button x:Name="for_technological" Content="Technological" Background="#6A5ACD" Grid.Row="3" FontSize="30px" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="Microsoft YaHei UI" BorderBrush="#00707070" Click="for_technological_Click" Height="44"/>
+        <Border CornerRadius="30" Background="#6A5ACD" Grid.Row="4" Margin="25"/>
+        <Button x:Name="for_vintage" Content="Vintage" Background="#6A5ACD" Grid.Row="4" FontSize="30px" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="Microsoft YaHei UI" BorderBrush="#00707070" Click="for_vintage_Click" Height="52"/>
+        <Border CornerRadius="30" Background="#6A5ACD" Grid.Row="5" Margin="25"/>
+        <Button x:Name="for_space" Content="Space" Background="#6A5ACD" Grid.Row="5" Margin="44,35,45,35" FontSize="30px" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White" FontFamily="Microsoft YaHei UI" BorderBrush="#00707070" Click="for_space_Click"/>
+
+    </Grid>
+</Window>

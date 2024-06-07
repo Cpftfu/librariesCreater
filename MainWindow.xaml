@@ -1,0 +1,20 @@
+﻿<Window x:Class="LibraryCreateWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryCreateWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="500">
+    <Grid Background="#4B0082">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="100*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="HERE WE HAVE LIBRARIES" FontSize="35px" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="White" FontFamily="Microsoft YaHei UI"/>
+        <Border Grid.Row="1" CornerRadius="30" Background="#6A5ACD" Margin="121,19,120,291"/>
+        <Button x:Name="for_start" Grid.Row="1" Background="#6A5ACD"  Margin="157,27,152,307" Content="START" FontWeight="Black" FontSize="20px" Foreground="#4B0082" BorderBrush="#00707070" Click="for_start_Click"/>
+    
+    </Grid>
+</Window>
